@@ -1,0 +1,36 @@
+* {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.main-container {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  border: 1px solid red;
+}
+.leftdiv,
+.righttdiv {
+  padding: 20px;
+}
+.submit-div {
+  width: 10%;
+  margin: auto;
+}
+input {
+  height: 30px;
+  margin: 5px;
+}
+button {
+  background-color: orangered;
+  border: none;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: greenyellow;
+  color: black;
+}
